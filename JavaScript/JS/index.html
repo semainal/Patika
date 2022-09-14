@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kodluyoruz - Front-End 101</title>
+    <!-- <style>
+        .text-primary {
+            color: blue;
+        }
+
+        .text-danger {
+            color: red;
+        }
+
+
+        
+    </style> -->
+   
+
+    
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        
+
+    </head>
+
+<body>
+    <div id="alert"></div>
+
+    <h1 id="greeting">Kodluyoruz - FrontEnd 101</h1>
+
+
+    <!--010 işlemleri-->
+    <!-- <h2 id="title">Merhaba Dünya </h2>
+    <ul id="list">
+        <li>
+            <a href="#" id="kodluyoruzLink">Link Bilgisi</a>
+        </li>
+    </ul> -->
+
+
+    <!--012 liste içerisindeki son elemana ulaşmak veya eleman eklemek 
+
+    <ul id="list">
+        <li>Lorem.</li>
+        <li>Repudiandae.</li>
+        <li>Pariatur.</li>
+    </ul>
+-->
+
+    <!--015-016-017-018  koşullarla çalışma-->
+
+    <h2 id="info"></h2>
+
+    <!-- 023 - fonksiyonlar bölüm sonu egzersizi-->
+    <!-- <h3 id="counter">100</h3>
+    <button id="increase">Arttır</button>
+    <button id="decrease">Azalt</button> -->
+ 
+        <!-- <div class="container mt-5">
+            <div class="row">
+                <div class="col-sm-8 offset-sm-2">
+                    <form id="userForm" >
+                        <div class="mb-3">
+                        <label class="form-label" for="username">Kullanıcı Adı</label>
+                        <input class="form-control" type="text" name="username" id="username">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label" for="score">Not Bilgisi</label>
+                        <input class="form-control" type="number" name="score" id="score">
+                    </div>
+
+                    <div class="mb-3">
+                        <button type="reset" class="btn btn-danger">Sıfırla</button>
+                        <button type="submit" class="btn btn-success">Gönder</button>
+                    </div>
+                    
+                    </form>
+                </div>
+
+                <div class="col-sm-8 offset-sm-2 mt-4">
+                    <ul class="list-group" id="userList">
+                        <li class="list-group-item d-felx justify-content-between align-items-center">
+                            Cras justo odio
+                            <span class="badge bg-primary rounded-pill">14</span>
+                        </li> 
+                    </ul>
+                </div>
+            </div>
+        </div> 
+    -->
+         <ul class="list-group" id="userList">
+
+        </ul> 
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <!-- <script src="denemeler.js"></script> -->
+    <!-- <script src="001-helloworld.js"></script> -->
+    <!-- <script src="002-degisken-tanimlama.js"></script> -->
+    <!-- <script src="003-degisken-tanimlama-kurallari.js"></script> -->
+    <!-- <script src="004-number-veri-türü.js"></script> -->
+    <!-- <script src="005-boolean-veri-türü.js"></script> -->
+    <!-- <script src="006-veri-türü-ve-dönüşümleri.js"></script> -->
+    <!-- <script src="007-template-literals.js"></script> -->
+    <!-- <script src="008-string-veri-türü.js"></script> -->
+    <!-- <script src="009-dom.js"></script> -->
+    <!-- <script src="010-dom-içerisinde-öğe-seçimi.js"></script> -->
+    <!-- <script src="011-prompt-ile-kullanıcıdan-bilgi-alma.js"></script> -->
+    <!-- <script src="012-liste-içerisindeki-öğeye-erişmek-ve-yeni-öğe-eklemek.js"></script> -->
+    <!-- <script src="013-doma-css-class-bilgisi-ekleme-çıkarma.js"></script> -->
+    <!-- <script src="014-karşılaştırma-operatörleri-ve-mantıksal-operatörler.js"></script> -->
+    <!-- <script src="015-koşul-yapısı-kullanımı.js"></script> -->
+    <!-- <script src="016-coklu-kosul-yapisi-kullanimi.js"></script> -->
+    <!-- <script src="017-ternary-operatörü.js"></script> -->
+    <!-- <script src="018-koşullarla-çalışmak-bölüm-sonu-egz.js"></script> -->
+    <!-- <script src="019-ilk-fonksiyonumuz.js"></script> -->
+    <!-- <script src="020-fonksiyona-parametre-atamak.js"></script> -->
+    <!-- <script src="021-arrow-function.js"></script> -->
+    <!-- <script src="022-dom-etkinlikleriyle-çalışmak.js"></script> -->
+    <!-- <script src="023-fonksiyonlar-bölüm-sonu.js"></script> -->
+    <!-- <script src="024-local-storage-ile-veri-ekleme-düzenleme--silme.js"></script> -->
+    <!-- <script src="025-localstorage-içerisine-farklı-türde-veri-ekleme.js"></script> -->
+    <!-- <script src="026-localstorage-bölüm-sonu.js"></script> -->
+    <!-- <script src="027-form-ve-form-submit-yönetimi.js"></script> -->
+    <!-- <script src="028-input-içerisinden-değer-alma.js"></script> -->
+    <!-- <script src="029-bölüm-sonu-formlarla-çalışmak.js"></script> -->
+    <!-- <script src="030-array-oluşturma-ve-diziden-eleman-seçme.js"></script> -->
+    <!-- <script src="031-diziye-eleman-ekleme-çıkartma-güncelleme.js"></script> -->
+        <!-- <script src="032-array-metodları-ve-array-içinde-array-oluşturma.js"></script> -->
+        <!-- <script src="033-for-döngüsü.js"></script> -->
+        <!-- <script src="034-break-ve-continue.js"></script> -->
+        <!-- <script src="035-while-döngüsü.js"></script> -->
+        <!-- <script src="036-forEach-ile-array-içerisindeki-öğlerin-çağırılması.js"></script> -->
+        <!-- <script src="037-filter-ile-array-içerisinde-sadece-istenilen-bilgilerin-yeni-listeye-eklenmesi.js"></script> -->
+        <!-- <script src="038-map-ile-array-içerisindeki-yapının-değiştirilerek-yeni-liste-oluşturulması.js"></script> -->
+        <!-- <script src="039-object-nedir-nasıl-oluşturulur.js"></script> -->
+        <!-- <script src="040-key-value-kullanımı.js"></script> -->
+        <!-- <script src="041-nesnelere-nasıl-metod-ekleriz.js"></script> -->
+        <!-- <script src="042-object-ve-array-destructing-kullanımı.js"></script> -->
+        <!-- <script src="043-try-catch-kullanımı.js"></script> -->
+        <script src="044-fetch-api-ile-çalışmak.js"></script>
+
+
+
+    </body>
+
+</html>
