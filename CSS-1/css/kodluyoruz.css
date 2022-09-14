@@ -1,0 +1,62 @@
+/* /* Açıklama satırı
+djksnskş
+dskjfsklfa
+ */
+
+/* body {
+    background-color:aquamarine;
+    color:white;
+    font-family: 'Ms Madi', cursive; ;
+}
+
+h2 {
+    color: pink;
+    font-size: 64px;
+    text-transform: uppercase;
+
+
+}
+
+p {
+    color:green; 
+    font-size:30px;
+
+}
+
+ul {
+    color: purple;
+   
+}  */
+
+/* class -> .text-red { }*/
+/* id -> #id-bilgisi {} */
+
+h1, h2, h3, h4, h5, h6 {
+    color:green;
+}
+h1 {
+    color: blue;
+}
+
+#first-article {
+    font-size: 40px;
+}
+
+.text-red {
+    color:red;
+}
+
+.fs-14 {
+    font-size: 14px;
+
+}
+
+.fs-20 {
+    font-size: 20px;
+
+}
+
+.fs-30 {
+
+    font-size: 30px;
+}
