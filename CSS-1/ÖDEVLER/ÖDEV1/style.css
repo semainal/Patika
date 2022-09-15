@@ -1,0 +1,84 @@
+
+body {
+    background-image:url(lacivert.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size:cover
+    
+    
+}
+
+h1 {
+    text-align:center;
+    background-color: pink;
+    margin-top:20px
+    
+    
+}
+
+h3 {
+    text-align:center;
+    color: aqua;
+    margin-top: 20px;
+}
+
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    color: white;
+    margin-right: 50px;
+
+}
+a:hover{color: pink;}
+a {
+    color: aliceblue;
+}
+
+p {
+    color:aliceblue
+}
+
+#image {
+    text-align: center;
+}
+
+.text-about {
+    margin-top: 100px;
+    text-align: center;
+    border: 5px solid pink;
+    font-family:'Ms Madi', cursive; 
+}
+
+.text-contact {
+    margin-top: 100px;
+    text-align: center;
+    border: 5px solid pink;
+    font-family:'Ms Madi', cursive; 
+}
+
+footer {
+    text-align:center;
+    color: pink;
+    margin-top: 50px;
+}
+
+h2 {
+    text-align: center;
+    color: aliceblue;
+}
+
+.planets {
+    color: aliceblue;
+    border: 3px solid pink;
+    margin-bottom: 20px;
+}
+
+.text-font {
+    font-family: 'Ms Madi', cursive;
+}
+
+.planets {
+    font-family: 'Ms Madi', cursive;
+}
