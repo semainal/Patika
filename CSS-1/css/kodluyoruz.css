@@ -31,6 +31,47 @@ ul {
 /* class -> .text-red { }*/
 /* id -> #id-bilgisi {} */
 
+/*css selectors */
+
+.color-blue.fw-bold { /*Birlikte olmak zorunda  */
+    color:blue;
+    font-weight: bold;
+}
+
+.color-blue .fw-bold { /*Ayrı yazılırsa alt elementi fw-bold olanın
+    color'ı blue olsun demek oluyor  */
+    color:blue;
+    font-weight: bold;
+}
+
+ /* li:first-child {
+    color: green;
+}
+
+ul>li:last-child {
+    color:pink;
+} */
+
+/* li:nth-child(2) {
+    color:red;
+} */
+
+/* li:nth-child(even) {
+    color:blueviolet;
+}
+
+li:nth-child(odd) {
+    color:aqua;
+} */
+
+li:nth-child(3n+1) {
+    background-color: aqua;
+}
+
+li:nth-child(3n) {
+    color: purple;
+}
+
 h1, h2, h3, h4, h5, h6 {
     color:green;
 }

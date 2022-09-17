@@ -1,0 +1,64 @@
+/*Google beta image */
+.container {
+    width:351px;
+    height:113px;
+    margin-left: 550px;
+
+}
+
+/*Google search */
+.box1 {
+    background-color:rgb(235, 235, 235);
+    width:1000;
+    text-align: center;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+
+/*It contains 3 boxes */
+.container1 {
+    margin-left:75px;
+    margin-right: 75px;
+}
+
+/*left box */
+.box2 {
+    width: 500px; 
+    margin-left: 75px;
+    margin-top: 5px;
+    text-align: center;
+    background-color: aquamarine;
+    height: 80px;
+    
+}
+
+
+/*middle box */
+.box3 {
+    width:300px;
+    margin-left:580px;
+    margin-top: -80px;
+    text-align: center;
+    background-color: rgb(121, 238, 238);
+    height: 80px;
+}
+
+
+/*right box */
+.box4 {
+    width: 480px;
+    margin-left:885px;
+    margin-top: -80px;
+    text-align: center;
+    background-color: rgb(25, 240, 240);
+    height: 80px;
+}
+
+
+/*footer */
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
