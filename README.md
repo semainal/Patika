@@ -1,3 +1,3 @@
 # Patika.dev
 
-##Beginner Front-end Web Development Pathway
+Beginner Front-end Web Development Pathway
