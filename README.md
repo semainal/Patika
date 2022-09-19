@@ -1,3 +1,3 @@
 # Patika.dev
 
-Başlangıç Seviye Frontend Web Development Patikası
+Beginner Front-end Web Development Pathway
